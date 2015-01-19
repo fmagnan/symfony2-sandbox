@@ -1,0 +1,5 @@
+services:
+    app_user.registration.form.type:
+        class: AppBundle\UserBundle\Form\Type\RegistrationFormType
+        tags:
+            - { name: form.type, alias: app_user_registration }
