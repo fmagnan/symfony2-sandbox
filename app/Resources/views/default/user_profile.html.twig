@@ -1,0 +1,6 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    {{ parent() }}
+    <p>({{ user.id }}) {{ user.username }}: <strong>{{ user.email }}</strong></p>
+{% endblock %}
